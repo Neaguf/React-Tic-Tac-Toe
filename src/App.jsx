@@ -1,5 +1,17 @@
+import Player from "./components/Player";
+
 function App() {
-  <p>Coming soon</p>;
+  return (
+    <main>
+      <div id="game-container">
+        <ol id="players">
+          <Player name="Florin" symbol="x" />
+          <Player name="Neagu" symbol="0" />
+        </ol>
+        Game board
+      </div>
+    </main>
+  );
 }
 
 export default App;
